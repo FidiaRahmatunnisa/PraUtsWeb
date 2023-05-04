@@ -1,0 +1,74 @@
+
+body{
+	background-color:grey;
+	
+}
+header {
+	background-color: blue;
+	color: white;
+	padding: 20px;
+	
+}
+
+.div-utama {
+	max-width:700px;
+	margin: 20px auto;
+	background-color: white;
+	height:980px;
+	overflow: hidden;
+}
+
+.navigasi ul {
+	list-style-type: none;
+	margin: 0;
+	padding:0;
+	overflow: hidden;
+	background-color: darkviolet;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.navigasi li {
+	float: left;
+}
+
+.navigasi li a {
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	padding: 10px 20px;
+	display: block;
+}
+.navigasi li a:hover{
+	background-color: crimson;
+	transition-duration: 2s;
+}
+
+.teks {
+	padding-left:10px;
+	width: 60%;
+	float: left;
+	height:800px:
+}
+
+.tabel{
+    
+	width:100%;
+}
+
+.gambar {
+	background-color: #0089aa;
+	width: 30%;
+	float: right;
+	height:800px;
+	padding-left:10px;
+}
+
+footer {
+	clear: both;
+	background-color: blue;
+	color: white;
+	padding: 10px;
+	text-align:center;
+
+}
