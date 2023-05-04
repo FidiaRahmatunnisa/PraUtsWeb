@@ -72,3 +72,31 @@ footer {
 	text-align:center;
 
 }
+@media screen and (max-width:1095px) {
+	.div-utama {
+		width: 100%;
+	}
+	.menu-kiri {
+		width: 45%;
+	}
+	.menu-tengah{
+		width: 50%;
+		float: right;
+	}
+	.menu-kanan, .menu-kanan-bawah {
+		width: 45%;
+	}
+}
+
+@media screen and (max-width:780px){
+	header h2, header p{
+		text-align: center;
+	}
+	.navigasi li{
+		float: none;
+	}
+	.menu-kiri, .menu-kanan, .menu-kanan-bawah, .menu-tengah {
+		float: none;
+		width: 100%;
+	}	
+}
